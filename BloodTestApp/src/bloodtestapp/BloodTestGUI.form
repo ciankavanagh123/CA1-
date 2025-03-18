@@ -23,18 +23,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="459" max="32767" attributes="0"/>
-          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="406" max="32767" attributes="0"/>
-          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -49,27 +43,46 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jTextField3" pref="93" max="32767" attributes="0"/>
-                      <Component id="jTextField1" alignment="0" pref="93" max="32767" attributes="0"/>
-                      <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jTextField4" alignment="0" max="32767" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="191" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="ageLBL" min="-2" max="-2" attributes="0"/>
+                              <Component id="nameLBL" min="-2" max="-2" attributes="0"/>
+                              <Component id="priorityLBL" min="-2" max="-2" attributes="0"/>
+                              <Component id="hospital" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="AddBTN" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="AgeTF" min="-2" pref="93" max="-2" attributes="0"/>
+                              <Component id="HospitalTF" min="-2" pref="93" max="-2" attributes="0"/>
+                              <Component id="NameTF" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                              <Component id="PriorityTF" min="-2" pref="93" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="GetBTN" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="50" max="32767" attributes="0"/>
+                          <Component id="MarkBTN" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
           </Group>
         </DimensionLayout>
@@ -78,31 +91,51 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="AddBTN" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="nameLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="NameTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="PriorityTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="priorityLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="ageLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AgeTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="HospitalTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hospital" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="GetBTN" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace pref="22" max="32767" attributes="0"/>
+                                  <Component id="MarkBTN" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
                   </Group>
-                  <EmptySpace pref="111" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -113,36 +146,51 @@
             <Property name="text" type="java.lang.String" value="Blood Test Scheduler"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="ageLBL">
           <Properties>
             <Property name="text" type="java.lang.String" value="Enter Age"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel3">
+        <Component class="javax.swing.JLabel" name="nameLBL">
           <Properties>
             <Property name="text" type="java.lang.String" value="Enter Name "/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel4">
+        <Component class="javax.swing.JLabel" name="priorityLBL">
           <Properties>
             <Property name="text" type="java.lang.String" value="Enter Priority"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel5">
+        <Component class="javax.swing.JLabel" name="hospital">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Hospital"/>
+            <Property name="text" type="java.lang.String" value="Enter Hospital"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField1">
+        <Component class="javax.swing.JTextField" name="NameTF">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NameTFActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField2">
+        <Component class="javax.swing.JTextField" name="AgeTF">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField3">
+        <Component class="javax.swing.JTextField" name="HospitalTF">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField4">
+        <Component class="javax.swing.JTextField" name="PriorityTF">
+        </Component>
+        <Component class="javax.swing.JButton" name="AddBTN">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Add Patient"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="GetBTN">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Get next Patient "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="MarkBTN">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mark No-Show"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>

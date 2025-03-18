@@ -31,7 +31,7 @@ public class Patient implements PatientInfo, Comparable<Patient>{
     public String getGpDetails() { return gpDetails; }
 
     @Override
-    public int compareTo(Patient other) 
+    public int compareTo(Patient other) {
         int thisPriority = switch (this.Priority) {
             case "urgent" -> 3;
             case "medium" -> 2;
